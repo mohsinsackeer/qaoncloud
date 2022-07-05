@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <div class='center'>
+    <h1 class="submit-details">Submit Details</h1>
+    <form class="personal-details" action="/submit" method="POST">
+      <table>
+
+        <!--Name-->
+        <!--Text Box-->
+        <tr class="name">
+          <td>Full Name</td>
+          <td><input type="TEXT" name="full_name" value=""></td>
+        </tr>
+
+        <!--Age-->
+        <!--Text Box-->
+        <tr class="age">
+          <td>Age</td>
+          <td><input type="text" name="age" value=""></td>
+        </tr>
+
+        <!--Sex-->
+        <!--Radio Button-->
+        <tr class="gender">
+          <td>Gender</td>
+          <td>
+            <input type="radio" name="gender" value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" name="gender" value="Female">
+            <label for="Female">Female</label><br>
+          </td>
+        </tr>
+
+        <!--Programming Expertise-->
+        <!--Check Box-->
+        <tr class = "expertise">
+          <td>Programming Expertise</td>
+          <td>
+            <input type="checkbox" name="language_C" value="C">
+            <label for="C">C</label><br>
+
+            <input type="checkbox" name="language_CPP" value="C++">
+            <label for="C++">C++</label><br>
+
+            <input type="checkbox" name="language_CS" value="C#">
+            <label for="C#">C#</label><br>
+
+            <input type="checkbox" name="language_Java" value="Java">
+            <label for="Java">Java</label><br>
+
+            <input type="checkbox" name="language_Python" value="Python">
+            <label for="Python">Python</label><br>
+
+            <input type="checkbox" name="language_Javascript" value="Javascript">
+            <label for="Javascript">Javascript</label>
+          </td>
+        </tr>
+
+        <!--Favourite Programming Language-->
+        <!--Drop Down List-->
+        <tr class="fav_language">
+          <td>Favourite Programming Language</td>
+          <td>
+            <select class="fav-prog-lang-drop-down" name="favourite_lang">
+              <option value="None">None</option>
+              <option value="C">C</option>
+              <option value="C++">C++</option>
+              <option value="C#">C#</option>
+              <option value="Java">Java</option>
+              <option value="Python">Python</option>
+              <option value="Javascript">Javascript</option>
+            </select>
+          </td>
+        </tr>
+
+      </table>
+
+      <p>When you're ready, click this button:</p>
+      <p><input type="submit" name="submit" value="SUBMIT"></p>
+
+    </form>
+  </div>
+{% endblock %}

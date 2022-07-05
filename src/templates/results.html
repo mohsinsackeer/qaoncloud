@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <div class="center">
+    <h1>Submitted Details</h1>
+
+    <table>
+
+      <tr>
+        <td>Name :    </td>
+        <td>{{ name }}</td>
+      </tr>
+
+      <tr>
+        <td>Age :   </td>
+        <td>{{ age }}</td>
+      </tr>
+
+      <tr>
+          <td>Gender : </td>
+          <td>{{ gender }}</td>
+      </tr>
+
+      <tr>
+        <td>Programming Expertise :   </td>
+        <td>{{ lang_expertise }}</td>
+      </tr>
+
+      <tr>
+        <td>Favourite Programming Language :    </td>
+        <td>{{ favourite_lang }}</td>
+      </tr>
+
+    </table>
+  </div>
+{% endblock %}

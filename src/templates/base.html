@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ the_title }}</title>
+    <link rel="stylesheet" href="http://cdn.oreilly.com/styles/hf.css"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    {% block body %}
+    {% endblock body %}
+</body>
+</html>

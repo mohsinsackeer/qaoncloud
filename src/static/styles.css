@@ -1,0 +1,26 @@
+body{
+  background-color: #c2f542;
+  width: 415px;
+}
+
+.submit-details{
+  text-align: center;
+}
+
+.center{
+  display: flow-root;
+  padding: 10px;
+}
+
+.expertise{
+  height: 150px;
+}
+
+td{
+  padding: 10px;
+  background-color: inherit;
+}
+
+form p{
+  text-align: center;
+}
