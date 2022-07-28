@@ -35,6 +35,6 @@ print(f"Accuracy (train): {accuracy_score(train_pred_y, train_y)}")
 """
 Now we have the new model available to us.
 Let us save it to file.
-""""
+"""
 
 pickle.dump(model, open('web-locator-identifier-model.sav', 'wb'))
