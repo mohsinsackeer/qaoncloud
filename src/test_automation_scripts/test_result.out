@@ -1,0 +1,7 @@
+test_automation1 (__main__.TestMyAutomation) ... ok
+test_automation2 (__main__.TestMyAutomation) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 8.929s
+
+OK
