@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+<h3>Registration v2</h3>
+<form action="/registered" method="post">
+    <pre>Name:           <input name="Name" id="name" type="text"> </pre>
+    <pre>Department:     <input name="Department" id='department' type="text"> </pre>
+    <pre>Degree:         <input type="radio" id="Btech" name="degree"value="Btech"><label for="html">Btech</label><br>
+                <input type="radio" name="degree" id="Dual_Degree" value="Dual Degree"><label for="css">Dual Degree</label><br>
+    <pre>CGPA:           <input name="CGPA" id="CGPA" type="text"> </pre>
+    <pre>12th percentage:<input name="Intermediate Percentage" id="12" type="text"> </pre>
+    <pre>10th percentage:<input name="Tenth Percentage" id="10" type="text"> </pre>
+    <pre>Gender:        <input type="radio" id="male" name="gender"value="Male"><label>Male</label><br>
+                <input type="radio" name="gender" id="Female" value="Female"><label>Female</label><br>
+    <p if="info">If you are applying for the first time check the respective box.</p>
+    <pre>Applying for the first time:<input type="radio" id="Yes" name="first_time" value="Yes"><label>Yes</label><br>
+                            <input type="radio" id="No" name="first_time" value="No"><label>No</label><br></pre>
+    <input type="submit" value="Submit" id="submit_form">
+</pre>
+
+</form>
+</body>
+</html>
