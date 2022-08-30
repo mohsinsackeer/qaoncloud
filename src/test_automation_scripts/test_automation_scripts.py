@@ -1,10 +1,12 @@
 import sys
+
 sys.path.append('../automation_scripts')
 
 from automate1 import auto1
 from automate2 import auto2
 import webbrowser
 import unittest
+
 
 # from app1 import app as flaskApp1
 # from app2 import app as flaskApp2
