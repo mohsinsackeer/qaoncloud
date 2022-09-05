@@ -1,11 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-# import requests
 from static import url, details_dictv1
-
 details = details_dictv1
 url = url[1]
-
 
 def auto1(path='chromedriver.exe'):
     driver = webdriver.Chrome(path)
@@ -36,7 +33,7 @@ def auto1(path='chromedriver.exe'):
 
     submit = form_element.find_element(By.ID, 'submit_form')
     submit.click()
-
-
 if __name__ == '__main__':
     auto1()
+
+
